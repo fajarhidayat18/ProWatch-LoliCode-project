@@ -1,0 +1,48 @@
+/* Reboot */
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 72px;
+    font-weight: bolder;
+    line-height: 90px;
+    letter-spacing: -1.75%;
+}
+h2{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: -1.5%;
+}
+h3{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    letter-spacing: -0.75%;
+}
+h4{
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 44px;
+    letter-spacing: -0.44%;
+}
+h5{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0;
+}
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.15%;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+/* end reboot */
