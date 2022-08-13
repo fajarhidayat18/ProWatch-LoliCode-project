@@ -1,4 +1,2 @@
-# ProWatch-LoliCode-project
-
-isi apa ayoo
-salam kenal guys
+Hayooo gimana nihh
+semangaat
