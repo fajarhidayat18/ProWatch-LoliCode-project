@@ -6,11 +6,11 @@
 }
 .carousel-wrapper{
     position: relative;
-    padding-top: 95vh;
+    padding-top: 90vh;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
 }
-.carousel{
+.carousel-wrapper .carousel{
     position: absolute;
     top: 0;
     right: 0;
@@ -20,21 +20,6 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-}
-.carousel-slide{
-    position: relative;
-    flex: 0 0 100%;
-    width: 100%;
-    padding-top: 4.5rem;
-}
-.carousel-slide::before{
-    content: "";
-    position: absolute;
-    top: 50%;   
-    left: 50%;
-    transform: translate3d(-50%,-40%,70px);
-    color: #fff;
-    font-size: 2em;
 }
 .carousel::before,
 .carousel::after {
@@ -50,7 +35,22 @@
   text-align: center;
   pointer-events: none;
 }
-.wrapper-content-carousel{
+.carousel-wrapper .carousel .carousel-slide{
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    /* padding-top: 1rem; */
+}
+.carousel-slide::before{
+    content: "";
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+}
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel{
     position: relative;
     height: 100%;
     width: 100%;
@@ -59,7 +59,7 @@
     justify-content: center;
     align-items: center;
 }
-.content-carousel{
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel{
     position: relative;
     border-radius: 2rem;
     height: 100%;
@@ -67,12 +67,21 @@
     border-radius: 2rem;
     overflow: hidden;
 }
-.poster-film{
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .poster-film{
     position: relative;
     height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover;
+    display: none;
+}
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .poster-film-mobile{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: block;
 }
 .poster-film::after{
     content: "";
@@ -84,7 +93,17 @@
     background-color: black;
     opacity: 0.55;
 }
-.body-content{
+.poster-film-mobile::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.55;
+}
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .body-content{
     position: absolute;
     bottom: 2.75rem;
     left: 50%;
@@ -95,10 +114,10 @@
     align-items: center;
     color: #fff;
 }
-.body-content span{
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .body-content span{
     font-weight: lighter;
 }
-.body-content a{
+.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .body-content a{
     background: var(--primary-color);
     padding: 0.5rem 1rem;
     width: 10rem;
@@ -108,7 +127,7 @@
     text-decoration: none;
     font-weight: bold;
 }
-.btn-slide{
+.carousel-wrapper .carousel .carousel-slide .btn-slide{
     position: absolute;
     top: 0;
     left: 0;
@@ -149,23 +168,6 @@
     color: var(--primary-color);
     fill: var(--bg-color);
 }
-@media (hover: hover) {
-    .btn-slide {
-      animation-name: tonext, snap;
-      animation-timing-function: ease;
-      animation-duration: 4s;
-      animation-iteration-count: infinite;
-    }
-  
-    .carousel-slide:last-child .btn-slide {
-      animation-name: tostart, snap;
-    }
-  }
-@media (prefers-reduced-motion: reduce) {
-.btn-slide {
-    animation-name: none;
-}
-}
 .carousel:hover .btn-slide,
 .carousel:focus-within .btn-slide {
 animation-name: none;
@@ -178,12 +180,11 @@ animation-name: none;
     z-index: 999;
     text-align: center;
     transform: translateY(25%);
-  }
+}
 .carousel-nav-list,
 .carousel-nav-item {
 display: inline-block;
 }
-
 .carousel-nav-button {
 display: inline-block;
 width: 1.5rem;
@@ -194,4 +195,20 @@ border: 0.25rem solid transparent;
 border-radius: 50%;
 background-clip: content-box;
 background-color: var(--scondary-color);
+}
+@media (hover: hover) {
+    .btn-slide {
+      animation-name: tonext, snap;
+      animation-timing-function: ease;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    .carousel-slide:last-child .btn-slide {
+      animation-name: tostart, snap;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .btn-slide {
+        animation-name: none;
+    }
 }

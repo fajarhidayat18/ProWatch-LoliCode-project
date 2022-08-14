@@ -1,28 +1,17 @@
-*{
-    margin-top: 0;
-    padding: 0;
-    box-sizing: border-box;
+footer{
+    position: relative;
+    margin-top: 5rem;
+    height: fit-content;
 }
-body{
-    background: white;
-}
-.pembungkus{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
+.footer-wrapper{
     background:#111;
     height: auto;
     width :100vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 40px;
     color : #fff;
-
 }
 
-footer{
-position: relative;
-}
 
 .footer-content{
     display: flex;

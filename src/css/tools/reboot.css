@@ -48,5 +48,6 @@ h6{
 
 body{
     background-color: var(--bg-color);
+    overflow-x: hidden;
 }
 /* end reboot */
