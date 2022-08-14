@@ -1,0 +1,128 @@
+.heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.heading p {
+    float:left; 
+    margin-left: 20px;
+}
+.heading a {
+    float:right; 
+    margin-right: 200px;
+}
+
+.main-item {
+    float: left;
+    margin: 16px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box7 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box8 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box9 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box10 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box11 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box12 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box13 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box14 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box15 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.box16 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.heading2 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.contents {
+    padding-top: 10px;
+}
+
+.contents p {
+    padding-top: 230px;
+    text-align: 100px;
+}
