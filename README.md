@@ -1,2 +1,3 @@
 Hayooo gimana nihh
-semangaat
+semangaat----bang ane pusing dah malem jadi uploadnya sembarangan maaf bang,,
+
