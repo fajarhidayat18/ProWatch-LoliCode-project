@@ -1,6 +1,7 @@
 :root{
     --primary-color:#14274E;
-    --scondary-hover:#394867;
+    --scondary-color:#394867;
     --disable-color:#9BA4B4;
     --bg-color: #F1F6F9;
+    --bg-color-blur: hsla(202, 40%, 96%, 0.7);
 }

@@ -4,27 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ProWatch</title>
     <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Start Header -->
     <header>
-        <div class="container nav">
-            <div class="nav-left flex">
-                <div class ="logo"><img src="/ProWatch-LoliCode-project/src/assets/img/logo.png" width="30px" alt=""></div>
-                <div class="header-list">
-                    <ul class="flex">
-                        <li><a href="#">TV series</a></li>
-                        <li><a href="#">film</a></li>
-                        <li><a href="#">anime</a></li>
-                    <ul>
+        <nav>
+            <div class="container nav">
+                <div class="nav-left flex">
+                    <div class ="logo"><img src="/src/assets/img/logo.png" width="30px" alt=""></div>
+                    <div class="header-list">
+                        <ul class="flex">
+                            <li><a href="#">TV series</a></li>
+                            <li><a href="#" class="active">film</a></li>
+                            <li><a href="#">anime</a></li>
+                        <ul>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="form-search">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#9BA4B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20.9999 21L16.6499 16.65" stroke="#9BA4B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                        <input type="text" name="" id="">
+                    </div>
                 </div>
             </div>
-            <div class="nav-right">
-                <input type="text" name="" id="">
-            </div>
-        </div>
+        </nav>
     </header>
+    <!-- End Header -->
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+    <!-- Start Hero -->
+    <div class="hero">
+        <div class="carousel-wrapper">
+            <div class="carousel">
+                <div class="carousel-slide" id="showing-1" tabindex="0">
+                    <div class="wrapper-content-carousel">
+                        <div class="content-carousel">
+                            <div class="poster-film" style="background-image: url('/src/assets/img/avengers-assemble-group-poster-1.jpg');"></div>
+                            <div class="body-content">
+                                <h4>Avengers Assemble</h4>
+                                <span>Action &bull; sci-fi &bull; hero</span>
+                                <a href="#">nonton</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-slide">
+                        <a href="#showing-3"class="carousel-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
+                        </a>
+                        <a href="#showing-2" class="carousel-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-slide" id="showing-2" tabindex="0">
+                    <div class="wrapper-content-carousel">
+                        <div class="content-carousel">
+                            <div class="poster-film" style="background-image: url('/src/assets/img/film-hit-and-run-poster-1.jpg');"></div>
+                            <div class="body-content">
+                                <h4>Hit And Run</h4>
+                                <span>Comedi &bull; Action &bull; romatis</span>
+                                <a href="#">nonton</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-slide">
+                        <a href="#showing-1"class="carousel-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
+                        </a>
+                        <a href="#showing-3" class="carousel-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-slide" id="showing-3" tabindex="0">
+                    <div class="wrapper-content-carousel">
+                        <div class="content-carousel">
+                            <div class="poster-film" style="background-image: url('/src/assets/img/justice\ league.webp');"></div>
+                            <div class="body-content">
+                                <h4>Justice League</h4>
+                                <span>hero &bull; sci-fi &bull; Action &bull; drama</span>
+                                <a href="#">nonton</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-slide">
+                        <a href="#showing-2"class="carousel-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
+                        </a>
+                        <a href="#showing-1" class="carousel-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <aside class="carousel-navigation">
+                <ol class="carousel-nav-list">
+                  <li class="carousel-nav-item">
+                    <a href="#showing1"
+                       class="carousel-nav-button">to slide 1</a>
+                  </li>
+                  <li class="carousel-nav-item">
+                    <a href="#showing2"
+                       class="carousel-nav-button">to slide 2</a>
+                  </li>
+                  <li class="carousel-nav-item">
+                    <a href="#showing3"
+                       class="carousel-nav-button">to slide 3</a>
+                  </li>
+                </ol>
+              </aside>
+        </div>
+    </div>
+    <!-- End Hero -->
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+    <!-- Start Body content / Main -->
     <main>
         <div class="container">
             <div class="heading">
@@ -88,8 +190,29 @@
             </div>
         </div>
     </main>
-    <footer>
-    </footer>
+    <!-- End Body content / Main -->
 
+<!-- ------------------------------------------------------------------------------------ -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Streaming Gratiss</h3>
+            <p>mari kita bersama sama menonton hal yang ilegal</p>
+            <p>karena yang ilegal itu <b>ASIIK</b></p>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 LoliCode. desain by <span>oraTuru</span></p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
 </body>
 </html>
