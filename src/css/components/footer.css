@@ -6,8 +6,7 @@
 body{
     background: white;
 }
-
-footer{
+.pembungkus{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,6 +18,10 @@ footer{
     padding-top: 40px;
     color : #fff;
 
+}
+
+footer{
+position: relative;
 }
 
 .footer-content{
