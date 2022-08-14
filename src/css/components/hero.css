@@ -39,7 +39,7 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    /* padding-top: 1rem; */
+    padding-top: 4.6rem;
 }
 .carousel-slide::before{
     content: "";
@@ -67,21 +67,19 @@
     border-radius: 2rem;
     overflow: hidden;
 }
-.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .poster-film{
+.content-carousel .poster-film{
     position: relative;
     height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover;
-    display: none;
 }
-.carousel-wrapper .carousel .carousel-slide .wrapper-content-carousel .content-carousel .poster-film-mobile{
+.content-carousel .poster-film-mobile{
     position: relative;
     height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover;
-    display: block;
 }
 .poster-film::after{
     content: "";

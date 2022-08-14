@@ -1,6 +1,6 @@
 header{
     z-index: 10;
-    position: sticky;
+    position: fixed;
     width: 100vw;
     background: var(--bg-color-blur);
     top: 0;
