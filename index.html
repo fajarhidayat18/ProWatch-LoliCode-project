@@ -13,23 +13,31 @@
     <header>
         <nav>
             <div class="container nav">
-                <div class="nav-left flex">
+                <div class="nav-left">
                     <div class ="logo"><img src="/src/assets/img/logo.png" width="30px" alt=""></div>
-                    <div class="header-list">
-                        <ul class="flex">
-                            <li><a href="#">TV series</a></li>
-                            <li><a href="#" class="active">film</a></li>
-                            <li><a href="#">anime</a></li>
-                        <ul>
-                    </div>
                 </div>
+                <button type="button" class="humberger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-right"><line x1="21" y1="10" x2="7" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="7" y2="18"></line></svg>
+                </button>
                 <div class="nav-right">
-                    <div class="search-container">
-                        <input type="text" name="search" placeholder="Search..." class="search-input">
-                        <a href="#" class="search-btn">
-                          <i class="fas fa-search"></i>
-                        </a>
-                      </div>
+                    <div class="wrapper-mobile-nav">
+                        <div class="header-list">
+                            <ul class="flex">
+                                <li><a href="#Tv-Series">TV series</a></li>
+                                <li><a href="#Movie">film</a></li>
+                                <li><a href="#Anime">anime</a></li>
+                            <ul>
+                        </div>
+                        <div class="search-container">
+                            <input type="text" name="search" placeholder="Search..." class="search-input">
+                            <a href="#" class="search-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M20.9999 21L16.6499 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -128,113 +136,557 @@
 
 <!-- ------------------------------------------------------------------------------------ -->
 
-<!-- start shoulder -->
-<div class="shoulder">
-        
-    <div class="circle" >
-        <div class="dalam"><a href="#"><img src="src/assets/img/kategori.png"></a></div>
-        <a href="#">Kategori</a>
+    <!-- start shoulder -->
+    <div class="container">
+        <div class="shoulder">
+            <a href="#" class="title">
+                <img src="src/assets/img/kategori.png">
+                <span>kategori</span>
+            </a>
+            <a href="#" class="title">
+                <img src="src/assets/img/genre.png">
+                <span>Gendre</span>
+            </a>
+            <a href="#" class="title">
+                <img src="src/assets/img/country.png">
+                <span>Negara</span>
+            </a>
+            <a href="#" class="title">
+                <img src="src/assets/img/premium.png">
+                <span>Premium</span>
+            </a>
+        </div>   
     </div>
-    <div class="circle" >
-        <div class="dalam"><a href="#"><img src="src/assets/img/genre.png"></a></div>
-        <a href="#">Genre</a>
-    </div>
-    <div class="circle" >
-        <div class="dalam"><a href="#"><img src="src/assets/img/country.png"></a></div>
-        <a href="#">Country</a>
-    </div>
-    <div class="circle" >
-        <div class="dalam"><a href="#"><img src="src/assets/img/premium.png"></a></div>
-        <a href="#">Premium</a>
-    </div>
-     
- </div>   
-    
-
-<!-- End shoulder-->
+    <!-- End shoulder-->
 
 <!-- ------------------------------------------------------------------------------------ -->
 
     <!-- Start Body content / Main -->
     <main>
-        <div class="container">
-            <div class="heading">
-                <span>Tren Teratas</span>
-                <a>Lebih Banyak &rarr;</a>
+        <section id="Tv-Series">
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Tv Series Teratas</span>
+                    <a href="#" class="title">Lebih Banyak &rarr;</a>
+                </div>
+                <div class="list-boxs">
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="list-boxs">
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-                <div class="main-item">
-                    <div class="box"></div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="contents">
-                <div class="title-list-boxs">
-                    <span>Nonton Bareng</span>
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Nonton Bareng Tv Series</span>
                     <div class="garis"></div>
                 </div>
                 <div class="list-boxs">
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
-                    <div class="main-item">
-                        <div class="box"></div>
-                    </div>
-                    <div class="main-item">
-                        <div class="box"></div>
-                    </div>
-                    <div class="main-item">
-                        <div class="box"></div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- ------------------------------------------------------------------------------------ -->
+        <section id="Movie">
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Film Teratas</span>
+                    <a href="#" class="title">Lebih Banyak &rarr;</a>
+                </div>
+                <div class="list-boxs">
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Nonton Bareng Film</span>
+                    <div class="garis"></div>
+                </div>
+                <div class="list-boxs">
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------------------------------------------------------------------------ -->
+        <section id="Anime">
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Anime Teratas</span>
+                    <a href="#" class="title">Lebih Banyak &rarr;</a>
+                </div>
+                <div class="list-boxs">
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading">
+                    <span class="title">Nonton Bareng Anime</span>
+                    <div class="garis"></div>
+                </div>
+                <div class="list-boxs">
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-bg">
+                            <img src="src/assets/img/small-device/avengers-assemble.jpg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                            <span class="title">Avengers Assemble</span>
+                            <a href="#" class="btn">nonton</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- End Body content / Main -->
 

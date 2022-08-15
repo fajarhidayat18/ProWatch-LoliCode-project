@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .carousel::-webkit-scrollbar {
     width: 0;
@@ -45,7 +46,9 @@ h6{
     line-height: 32px;
     letter-spacing: -0.15%;
 }
-
+a{
+    text-decoration: none;
+}
 body{
     background-color: var(--bg-color);
     overflow-x: hidden;

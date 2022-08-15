@@ -17,6 +17,70 @@
     .container{
         max-width: 720px;
     }
+    .carousel-wrapper .carousel .carousel-slide .btn-slide{
+        display: block;
+    }
+    .list-boxs{
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 18rem;
+    }
+    .nav{
+        padding: 1rem 0;
+    }
+    .nav-right .wrapper-mobile-nav .mobile-nav-top{
+        display: none;
+    }
+    .nav-right{
+        opacity: 1;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        top: 0;
+        height: auto;
+        background-color:transparent;
+    }
+    .btn-menu{
+        display: none;
+    }
+    .nav-right .wrapper-mobile-nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: auto;
+            width: 100%;
+            padding: 0;
+            background-color: transparent;
+    }
+     .header-list{
+        margin-left: 1.5rem;
+        margin-bottom: 0;
+    }
+    .nav-right .search-container:hover {
+        animation: hoverShake 0.30s linear 3;
+    }
+    .nav-right .search-container:hover>.search-input {
+        width: 14rem;
+        padding: 0.1rem 1rem;
+    }
+    .nav-right .search-container .search-input {
+        padding: 0.1rem 0;
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 0px;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: 0.8s;
+    }
+    .shoulder{
+        grid-template-columns: repeat(4, 0.5fr);
+    }
+    button.humberger{
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -30,11 +94,11 @@
     .content-carousel .poster-film{
         display: block;
     }
- }
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .container{
-        max-width: 1140px;
+    .list-boxs{
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: 14rem;
+    }
+    .carousel-navigation {
+        transform: translateY(0rem);
     }
  }

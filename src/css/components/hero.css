@@ -25,7 +25,6 @@
 .carousel::after {
   content: '';
   z-index: 1;
-  /* background-color: #333; */
   background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -54,7 +53,6 @@
     position: relative;
     height: 100%;
     width: 100%;
-    /* background: rgb(0, 0, 0); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,6 +124,7 @@
     font-weight: bold;
 }
 .carousel-wrapper .carousel .carousel-slide .btn-slide{
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -139,8 +138,8 @@
 .carousel-next {
   position: absolute;
   top: 50%;
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   outline: 0;
   font-size: 0;
   border-radius: 50%;
@@ -177,22 +176,22 @@ animation-name: none;
     bottom: 0;
     z-index: 999;
     text-align: center;
-    transform: translateY(25%);
+    transform: translateY(1rem);
 }
 .carousel-nav-list,
 .carousel-nav-item {
-display: inline-block;
+    display: inline-block;
 }
 .carousel-nav-button {
-display: inline-block;
-width: 1.5rem;
-height: 1.5rem;
-font-size: 0;
-transition: transform 0.1s;
-border: 0.25rem solid transparent;
-border-radius: 50%;
-background-clip: content-box;
-background-color: var(--scondary-color);
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0;
+    transition: transform 0.1s;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    background-clip: content-box;
+    background-color: var(--scondary-color);
 }
 @media (hover: hover) {
     .btn-slide {

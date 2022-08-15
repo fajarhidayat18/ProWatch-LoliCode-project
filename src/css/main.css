@@ -2,7 +2,6 @@
 @import "tools/variable.css";
 @import "tools/reboot.css";
 @import "tools/utility.css";
-@import "tools/media-query.css";
 @import "tools/animation.css";
 /* ----------------------------------------------- */
 /* Nav Start */
@@ -25,3 +24,4 @@
 @import "components/footer.css";
 /* Footer End */
 /* ----------------------------------------------- */
+@import "tools/media-query.css";

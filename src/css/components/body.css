@@ -1,58 +1,73 @@
-
 .heading {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: 3rem 0 1rem 0;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
 }
-
-/* .heading p {
-    margin-left: 20px;
-}
-.heading a {
-    margin-right: 200px;
-} */
-
-.main-item {
-/* float: left; */
-    margin: 16px;
-}
-
-.list-boxs{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-}
-
-
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
-}
-
-
-.heading2 {
-    padding-top: 10px;
-    padding-bottom: 40px;
-}
-
-.contents {
-    padding-top: 10px;
-    position: relative;
-}
-
-.contents .title-list-boxs span {
+.heading span {
     white-space: nowrap;
     margin-right: 2rem;
 }
 .garis{
-    height: 2px;
+    height: 3px;
     width: 100%;
-    background-color: aqua;
+    background-color: var(--primary-color);
 }
-.title-list-boxs{
+.list-boxs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 14rem;
+    gap: 0.75rem;
+    justify-items: center;
+    justify-content: center;
+}
+.card-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.card-content:hover {
+    transform: scale(1.1);
+}
+.card-content:hover .card-body{
+    opacity: 1;
+    transition: 0.2s;
+}
+.card-bg{
+    position: absolute;
+    z-index: -1;
+}
+.card-bg img{
+    max-width: 100%;
+    height: auto;
+}
+.card-body{
+    opacity: 0;
     display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0.6rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.card-body .title{
+    color: #fff;
+    font-size: 0.95rem;
+}
+.card-body .btn{
+    position: absolute;
+    bottom: 0.4rem;
+    background: var(--primary-color);
+    padding: 0.2rem 2rem;
+    margin-top: 0.75rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
