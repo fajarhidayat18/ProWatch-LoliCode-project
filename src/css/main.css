@@ -13,6 +13,10 @@
 @import "components/hero.css";
 /* Hero End */
 /* ----------------------------------------------- */
+/* Shoulder Start */
+@import "components/shoulder.css";
+/* Shoulder End */
+/* ----------------------------------------------- */
 /* Main Content Start */
 @import "components/body.css";
 /* Main Content End */
