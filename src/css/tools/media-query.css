@@ -18,7 +18,7 @@
         max-width: 720px;
     }
     .carousel-wrapper .carousel .carousel-slide .btn-slide{
-        display: block;
+        opacity: 1;
     }
     .list-boxs{
         grid-template-columns: repeat(3, 1fr);
@@ -32,6 +32,8 @@
     }
     .nav-right{
         opacity: 1;
+        z-index: 10;
+        transform: none;
         position: relative;
         width: 100%;
         display: flex;
@@ -88,6 +90,9 @@
     .container{
         max-width: 960px;
     }
+    .shoulder{
+        margin: 10rem 0 3rem 0;
+    }
     content-carousel .poster-film-mobile{
         display: none;
     }
@@ -100,5 +105,8 @@
     }
     .carousel-navigation {
         transform: translateY(0rem);
+    }
+    .carousel-wrapper{
+        padding-top: 100vh;
     }
  }
