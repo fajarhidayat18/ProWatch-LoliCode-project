@@ -83,6 +83,17 @@
     button.humberger{
         display: none;
     }
+    .footer-content{
+        flex-direction: row;
+        text-align: start;
+    }
+    .social{
+        margin-top: 0;
+        justify-content: start;
+    }
+    .social ul{
+        justify-content: space-between;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
